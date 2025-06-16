@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Inventory Prediction</title>
+</head>
+<body>
+    <h3>Enter Consumption Value</h3>
+    <form action="/predict" method="POST">
+        <label for="consumption">Consumption:</label>
+        <input type="number" step="0.01" id="consumption" name="consumption" required>
+        <br><br>
+        <input type="submit" value="Predict Inventory">
+    </form>
+</body>
+</html>
